@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BannerActivity3">
+
+    <Button
+        android:id="@+id/show_interstitial_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:text="@string/show_interstitial_2_string"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/to_banner_activity_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:text="@string/next_string"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/show_banner_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:text="@string/start_banner_ads_string"
+        android:textAllCaps="false" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/5525302030" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/4716806764" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/5525302030" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/4716806764" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/1419370216" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7984778560" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7984778560" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView13"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView14"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/3766138435" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView15"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView16"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/3766138435" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView18"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9591527797" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView19"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView20"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9591527797" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView21"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView22"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView23"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/adView24"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
