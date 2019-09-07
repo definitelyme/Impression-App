@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">New Featured</string>
+    <string name="app_name">My Sync App</string>
 
     <string name="start_banner_ads_string">Start Banner Ads</string>
     <string name="show_interstitial_1_string">Start Interstitial 1</string>
