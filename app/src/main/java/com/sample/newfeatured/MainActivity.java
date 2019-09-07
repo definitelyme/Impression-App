@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements ActInterface {
         setContentView(R.layout.activity_main);
 
         MobileAds.initialize(this, initializationStatus -> sendToast(this, "Ads Initialized!"));
-        MobileAds.initialize(this, AD_APP_ID);
+        MobileAds.initialize(this, getString(R.string.ad_app_id));
 
         show_banner_ads = findViewById(R.id.show_banner_ads);
         Button to_act_2 = findViewById(R.id.to_banner_activity_2);

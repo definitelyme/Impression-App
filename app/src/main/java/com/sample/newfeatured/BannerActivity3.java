@@ -1,11 +1,11 @@
 package com.sample.newfeatured;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -43,7 +43,7 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
         setContentView(R.layout.activity_banner3);
 
         MobileAds.initialize(this, initializationStatus -> sendToast(this, "Ads Initialized!"));
-        MobileAds.initialize(this, AD_APP_ID);
+        MobileAds.initialize(this, getString(R.string.ad_app_id));
 
         show_inter_2 = findViewById(R.id.show_interstitial_2);
         show_banner_ads_btn = findViewById(R.id.show_banner_ads);
@@ -67,7 +67,7 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
 
     private void setupInterstitialAd() {
         InterstitialAd interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId(INTERSTITIAL_AD_2);
+        interstitialAd.setAdUnitId(getString(R.string.interstitial_ad_2));
         initInterstitial(interstitialAd);
 
         interstitialAd.setAdListener(new AdListener() {
@@ -98,7 +98,7 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
         }
     }
 
-    private void initInterstitial(InterstitialAd interstitialAd){
+    private void initInterstitial(InterstitialAd interstitialAd) {
         // Request a new ad if one isn't already loaded, hide the button, and kick off the timer.
         AdRequest adRequest = new AdRequest.Builder().build();
         interstitialAd.loadAd(adRequest);

@@ -52,7 +52,7 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
         setContentView(R.layout.activity_banner4);
 
         MobileAds.initialize(this, initializationStatus -> sendToast(this, "Ads Initialized!"));
-        MobileAds.initialize(this, AD_APP_ID);
+        MobileAds.initialize(this, getString(R.string.ad_app_id));
 
         show_inter_3 = findViewById(R.id.show_interstitial_3);
         show_banner_ads_btn = findViewById(R.id.show_banner_ads);
@@ -79,7 +79,7 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
     private void setupInterstitialAd() {
         InterstitialAd interstitialAd = new InterstitialAd(this);
 
-        interstitialAd.setAdUnitId(INTERSTITIAL_AD_3);
+        interstitialAd.setAdUnitId(getString(R.string.interstitial_ad_3));
 
         initInterstitial(interstitialAd);
 
@@ -126,7 +126,7 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
     private void setupInterstitialAd2() {
         InterstitialAd interstitialAd2 = new InterstitialAd(this);
 
-        interstitialAd2.setAdUnitId(INTERSTITIAL_AD_4);
+        interstitialAd2.setAdUnitId(getString(R.string.interstitial_ad_4));
 
         initInterstitial2(interstitialAd2);
 

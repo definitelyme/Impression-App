@@ -12,17 +12,18 @@
     <string name="stop_interstitial_ads">Stop Loading Ads</string>
 
     <!--  Roy's Banner Ads  -->
-<!--    <string name="banner_ad_1">ca-app-pub-2442497647180977/9810309201</string>-->
-<!--    <string name="banner_ad_2">ca-app-pub-2442497647180977/7767982686</string>-->
-<!--    <string name="banner_ad_3">ca-app-pub-2442497647180977/6319169649</string>-->
-<!--    <string name="banner_ad_4">ca-app-pub-2442497647180977/5141819345</string>-->
-<!--    <string name="banner_ad_5">ca-app-pub-2442497647180977/5510087647</string>-->
-<!--    <string name="banner_ad_6">ca-app-pub-2442497647180977/7491461146</string>-->
-<!--    <string name="banner_ad_7">ca-app-pub-2442497647180977/6112120238</string>-->
-<!--    <string name="interstitial_ad_1">ca-app-pub-2442497647180977/2172875222</string>-->
-<!--    <string name="interstitial_ad_2">ca-app-pub-2442497647180977/9343405347</string>-->
-<!--    <string name="interstitial_ad_3">ca-app-pub-2442497647180977/4557982521</string>-->
-<!--    <string name="interstitial_ad_4">ca-app-pub-2442497647180977/8030323679</string>-->
+    <!--    <string name="ad_app_id">ca-app-pub-2442497647180977~4020309363</string>-->
+    <!--    <string name="banner_ad_1">ca-app-pub-2442497647180977/9810309201</string>-->
+    <!--    <string name="banner_ad_2">ca-app-pub-2442497647180977/7767982686</string>-->
+    <!--    <string name="banner_ad_3">ca-app-pub-2442497647180977/6319169649</string>-->
+    <!--    <string name="banner_ad_4">ca-app-pub-2442497647180977/5141819345</string>-->
+    <!--    <string name="banner_ad_5">ca-app-pub-2442497647180977/5510087647</string>-->
+    <!--    <string name="banner_ad_6">ca-app-pub-2442497647180977/7491461146</string>-->
+    <!--    <string name="banner_ad_7">ca-app-pub-2442497647180977/6112120238</string>-->
+    <!--    <string name="interstitial_ad_1">ca-app-pub-2442497647180977/2172875222</string>-->
+    <!--    <string name="interstitial_ad_2">ca-app-pub-2442497647180977/9343405347</string>-->
+    <!--    <string name="interstitial_ad_3">ca-app-pub-2442497647180977/4557982521</string>-->
+    <!--    <string name="interstitial_ad_4">ca-app-pub-2442497647180977/8030323679</string>-->
 
     <!--  Andii Banner Ads  -->
     <string name="ad_app_id">ca-app-pub-5022917256332506~8925490997</string>
