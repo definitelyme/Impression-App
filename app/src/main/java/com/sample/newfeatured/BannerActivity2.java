@@ -59,7 +59,6 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
         });
         show_inter_1_btn.setOnClickListener(v -> {
             setupInterstitialAd();
-            setupConstants();
             adHandler.post(intersRunnable);
         });
 
@@ -78,16 +77,13 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
             }
 
             @Override
-            public void onAdImpression() {
-                sendSnackbar(container, "Impression has been sent!");
-            }
-
-            @Override
             public void onAdFailedToLoad(int i) {
                 sendSnackbar(container, "Interstitial failed to load with error code: " + i);
                 if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupInterstitialAd();
             }
         });
+
+        setupConstants();
     }
 
     private void showInterstitial(InterstitialAd interstitialAd) {
@@ -126,16 +122,6 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
             }
 
             @Override
-            public void onAdClosed() {
-                sendSnackbar(container, "Constant 1 Ad Closed!");
-            }
-
-            @Override
-            public void onAdImpression() {
-                sendToast(BannerActivity2.this, "Constant 1 Impression Sent!");
-            }
-
-            @Override
             public void onAdFailedToLoad(int i) {
                 if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
             }
@@ -145,16 +131,6 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
             @Override
             public void onAdLoaded() {
                 showInterstitial(constant2);
-            }
-
-            @Override
-            public void onAdClosed() {
-                sendSnackbar(container, "Constant 2 Ad Closed!");
-            }
-
-            @Override
-            public void onAdImpression() {
-                sendToast(BannerActivity2.this, "Constant 2 Impression Sent!");
             }
 
             @Override

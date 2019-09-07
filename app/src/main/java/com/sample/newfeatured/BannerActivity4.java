@@ -90,16 +90,13 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
             }
 
             @Override
-            public void onAdImpression() {
-                sendSnackbar(container, "Impression has been sent!");
-            }
-
-            @Override
             public void onAdFailedToLoad(int i) {
                 sendSnackbar(container, "Interstitial failed to load with error code: " + i);
                 if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupInterstitialAd();
             }
         });
+
+        setupConstants();
     }
 
     private void initInterstitial(InterstitialAd interstitialAd) {
@@ -137,16 +134,13 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
             }
 
             @Override
-            public void onAdImpression() {
-                sendSnackbar(container, "Impression has been sent!");
-            }
-
-            @Override
             public void onAdFailedToLoad(int i) {
                 sendSnackbar(container, "Interstitial failed to load with error code: " + i);
                 if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupInterstitialAd();
             }
         });
+
+        setupConstants();
     }
 
     private void initInterstitial2(InterstitialAd interstitialAd2) {
@@ -228,6 +222,40 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
         adView23.loadAd(adRequest());
         adView24.loadAd(adRequest());
         adView25.loadAd(adRequest());
+    }
+
+    private void setupConstants(){
+        InterstitialAd constant1 = new InterstitialAd(this);
+        constant1.setAdUnitId(getString(R.string.interstitial_ad_8));
+        initInterstitial(constant1); // Load Interstitial
+
+        InterstitialAd constant2 = new InterstitialAd(this);
+        constant2.setAdUnitId(getString(R.string.interstitial_ad_9));
+        initInterstitial(constant2); // Load Interstitial
+
+        constant1.setAdListener(new AdListener(){
+            @Override
+            public void onAdLoaded() {
+                showInterstitial(constant1);
+            }
+
+            @Override
+            public void onAdFailedToLoad(int i) {
+                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
+            }
+        });
+
+        constant2.setAdListener(new AdListener(){
+            @Override
+            public void onAdLoaded() {
+                showInterstitial(constant2);
+            }
+
+            @Override
+            public void onAdFailedToLoad(int i) {
+                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
+            }
+        });
     }
 
     private AdRequest adRequest() {
