@@ -59,6 +59,7 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
         });
         show_inter_1_btn.setOnClickListener(v -> {
             setupInterstitialAd();
+            setupConstants();
             adHandler.post(intersRunnable);
         });
 
@@ -68,7 +69,7 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
     private void setupInterstitialAd() {
         InterstitialAd interstitialAd = new InterstitialAd(this);
         interstitialAd.setAdUnitId(getString(R.string.interstitial_ad_1));
-        initInterstitial(interstitialAd);
+        initInterstitial(interstitialAd); // Load Interstitial
 
         interstitialAd.setAdListener(new AdListener() {
             @Override
@@ -107,6 +108,60 @@ public class BannerActivity2 extends AppCompatActivity implements ActInterface {
 
         AdRequest adRequest = new AdRequest.Builder().build();
         interstitialAd.loadAd(adRequest);
+    }
+
+    private void setupConstants(){
+        InterstitialAd constant1 = new InterstitialAd(this);
+        constant1.setAdUnitId(getString(R.string.interstitial_ad_8));
+        initInterstitial(constant1); // Load Interstitial
+
+        InterstitialAd constant2 = new InterstitialAd(this);
+        constant2.setAdUnitId(getString(R.string.interstitial_ad_9));
+        initInterstitial(constant2); // Load Interstitial
+
+        constant1.setAdListener(new AdListener(){
+            @Override
+            public void onAdLoaded() {
+                showInterstitial(constant1);
+            }
+
+            @Override
+            public void onAdClosed() {
+                sendSnackbar(container, "Constant 1 Ad Closed!");
+            }
+
+            @Override
+            public void onAdImpression() {
+                sendToast(BannerActivity2.this, "Constant 1 Impression Sent!");
+            }
+
+            @Override
+            public void onAdFailedToLoad(int i) {
+                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
+            }
+        });
+
+        constant2.setAdListener(new AdListener(){
+            @Override
+            public void onAdLoaded() {
+                showInterstitial(constant2);
+            }
+
+            @Override
+            public void onAdClosed() {
+                sendSnackbar(container, "Constant 2 Ad Closed!");
+            }
+
+            @Override
+            public void onAdImpression() {
+                sendToast(BannerActivity2.this, "Constant 2 Impression Sent!");
+            }
+
+            @Override
+            public void onAdFailedToLoad(int i) {
+                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
+            }
+        });
     }
 
     private void initAdViews() {
