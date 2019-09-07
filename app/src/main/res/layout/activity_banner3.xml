@@ -52,7 +52,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="60dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+                ads:adUnitId="@string/banner_ad_2" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView2"
@@ -62,7 +62,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/5525302030" />
+                ads:adUnitId="@string/banner_ad_4" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView3"
@@ -72,7 +72,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+                ads:adUnitId="@string/banner_ad_3" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView4"
@@ -82,7 +82,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/4716806764" />
+                ads:adUnitId="@string/banner_ad_6" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView5"
@@ -92,7 +92,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+                ads:adUnitId="@string/banner_ad_2" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView6"
@@ -102,7 +102,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/8343037067" />
+                ads:adUnitId="@string/banner_ad_1" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView7"
@@ -112,7 +112,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/5525302030" />
+                ads:adUnitId="@string/banner_ad_5" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView8"
@@ -122,7 +122,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/4716806764" />
+                ads:adUnitId="@string/banner_ad_7" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView9"
@@ -132,7 +132,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/1419370216" />
+                ads:adUnitId="@string/banner_ad_6" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView10"
@@ -142,7 +142,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+                ads:adUnitId="@string/banner_ad_1" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView11"
@@ -152,7 +152,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7984778560" />
+                ads:adUnitId="@string/banner_ad_3" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView12"
@@ -162,7 +162,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7984778560" />
+                ads:adUnitId="@string/banner_ad_4" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView13"
@@ -172,7 +172,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+                ads:adUnitId="@string/banner_ad_5" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView14"
@@ -182,7 +182,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+                ads:adUnitId="@string/banner_ad_7" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView15"
@@ -192,7 +192,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/3766138435" />
+                ads:adUnitId="@string/banner_ad_2" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView16"
@@ -202,7 +202,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+                ads:adUnitId="@string/banner_ad_4" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView17"
@@ -211,7 +211,7 @@
                 android:layout_below="@id/adView16"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+                ads:adUnitId="@string/banner_ad_6" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView18"
@@ -221,7 +221,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/3766138435" />
+                ads:adUnitId="@string/banner_ad_4" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView19"
@@ -231,7 +231,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9591527797" />
+                ads:adUnitId="@string/banner_ad_7" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView20"
@@ -241,7 +241,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+                ads:adUnitId="@string/banner_ad_5" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView21"
@@ -251,7 +251,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9591527797" />
+                ads:adUnitId="@string/banner_ad_2" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView22"
@@ -261,7 +261,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9018465112" />
+                ads:adUnitId="@string/banner_ad_3" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView23"
@@ -271,7 +271,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/9106288542" />
+                ads:adUnitId="@string/banner_ad_1" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView24"
@@ -281,7 +281,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+                ads:adUnitId="@string/banner_ad_2" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView25"
@@ -291,7 +291,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5022917256332506/7363151409" />
+                ads:adUnitId="@string/banner_ad_7" />
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 

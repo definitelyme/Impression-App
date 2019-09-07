@@ -9,6 +9,8 @@ import android.widget.Toast;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.util.StringJoiner;
+
 public interface ActInterface {
     // Google Ad Unit - ca-app-pub-3940256099942544/1033173712
     String INTERSTITIAL_AD_1 = "ca-app-pub-5022917256332506/3637505299";
@@ -20,7 +22,7 @@ public interface ActInterface {
     String TAG = "new-feat-tag";
     String __BANNER_SEARCH_STRING = "Start Banner";
 
-    String AD_APP_ID = "ca-app-pub-5022917256332506~8925490997";
+    String AD_APP_ID = new Activity().getString(R.string.ad_app_id);
 
     Handler adHandler = new Handler();
     long BANNER_REFRESH_DELAY = 20000;

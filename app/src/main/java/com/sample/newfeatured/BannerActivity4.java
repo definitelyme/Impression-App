@@ -234,15 +234,4 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
         return new AdRequest.Builder()
                 .build();
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        adHandler.removeCallbacks(bannerRunnable);
-        show_banner_ads_btn.setText(getString(R.string.start_banner_ads_string));
-        adHandler.removeCallbacks(intersRunnable1);
-        show_inter_3.setText(getString(R.string.show_interstitial_3_string));
-        adHandler.removeCallbacks(intersRunnable2);
-        show_inter_4.setText(getString(R.string.show_interstitial_4_string));
-    }
 }

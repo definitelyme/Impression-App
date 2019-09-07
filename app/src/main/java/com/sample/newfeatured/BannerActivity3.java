@@ -169,13 +169,4 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
         return new AdRequest.Builder()
                 .build();
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        adHandler.removeCallbacks(bannerRunnable);
-        show_banner_ads_btn.setText(getString(R.string.start_banner_ads_string));
-        adHandler.removeCallbacks(intersRunnable);
-        show_inter_2.setText(getString(R.string.show_interstitial_2_string));
-    }
 }

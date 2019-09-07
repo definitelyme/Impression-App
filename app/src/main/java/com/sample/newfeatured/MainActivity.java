@@ -109,11 +109,4 @@ public class MainActivity extends AppCompatActivity implements ActInterface {
         return new AdRequest.Builder()
                 .build();
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        adHandler.removeCallbacks(bannerRunnable);
-        show_banner_ads.setText(getString(R.string.start_banner_ads_string));
-    }
 }
