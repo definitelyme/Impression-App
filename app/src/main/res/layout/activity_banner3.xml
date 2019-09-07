@@ -132,7 +132,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_6" />
+                ads:adUnitId="@string/banner_ad_10" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView10"
@@ -192,7 +192,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_2" />
+                ads:adUnitId="@string/banner_ad_8" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView16"
@@ -202,7 +202,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_4" />
+                ads:adUnitId="@string/banner_ad_10" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView17"
@@ -231,7 +231,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_7" />
+                ads:adUnitId="@string/banner_ad_9" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView20"
@@ -251,7 +251,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_2" />
+                ads:adUnitId="@string/banner_ad_8" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView22"
@@ -271,7 +271,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_1" />
+                ads:adUnitId="@string/banner_ad_9" />
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView24"
