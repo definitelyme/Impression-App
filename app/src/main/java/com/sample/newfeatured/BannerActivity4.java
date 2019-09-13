@@ -96,7 +96,7 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
             }
         });
 
-        setupConstants();
+//        setupConstants();
     }
 
     private void initInterstitial(InterstitialAd interstitialAd) {
@@ -140,7 +140,7 @@ public class BannerActivity4 extends AppCompatActivity implements ActInterface {
             }
         });
 
-        setupConstants();
+//        setupConstants();
     }
 
     private void initInterstitial2(InterstitialAd interstitialAd2) {

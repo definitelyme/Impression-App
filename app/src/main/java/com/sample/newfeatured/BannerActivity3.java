@@ -83,7 +83,7 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
             }
         });
 
-        setupConstants();
+//        setupConstants();
     }
 
     private void showInterstitial(InterstitialAd interstitialAd) {
