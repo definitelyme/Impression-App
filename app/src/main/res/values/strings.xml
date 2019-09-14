@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Benson Maniac</string>
+    <string name="app_name">Travelmantics</string>
 
     <string name="start_banner_ads_string">Start Banner Ads</string>
     <string name="show_interstitial_1_string">Start Interstitial 1</string>
@@ -26,31 +26,30 @@
 <!--        <string name="interstitial_ad_4">ca-app-pub-2442497647180977/8030323679</string>-->
 
     <!--  Andii Ads  -->
-<!--    <string name="ad_app_id">ca-app-pub-5022917256332506~8925490997</string>-->
-<!--    <string name="banner_ad_1">ca-app-pub-5022917256332506/8343037067</string>-->
-<!--    <string name="banner_ad_2">ca-app-pub-5022917256332506/5525302030</string>-->
-<!--    <string name="banner_ad_3">ca-app-pub-5022917256332506/4716806764</string>-->
-<!--    <string name="banner_ad_4">ca-app-pub-5022917256332506/7984778560</string>-->
-<!--    <string name="banner_ad_5">ca-app-pub-5022917256332506/1419370216</string>-->
-<!--    <string name="banner_ad_6">ca-app-pub-5022917256332506/7363151409</string>-->
-<!--    <string name="banner_ad_7">ca-app-pub-5022917256332506/9106288542</string>-->
-<!--    <string name="interstitial_ad_1">ca-app-pub-5022917256332506/3637505299</string>-->
-<!--    <string name="interstitial_ad_2">ca-app-pub-5022917256332506/1818099119</string>-->
-<!--    <string name="interstitial_ad_3">ca-app-pub-5022917256332506/9365416642</string>-->
-<!--    <string name="interstitial_ad_4">ca-app-pub-5022917256332506/6739253307</string>-->
-<!--    <string name="interstitial_ad_5">ca-app-pub-5022917256332506/9173844958</string>-->
+    <string name="ad_app_id">ca-app-pub-7905470288141913~6022708050</string>
+    <string name="banner_ad_1">ca-app-pub-7905470288141913/2023753296</string>
+    <string name="banner_ad_2">ca-app-pub-7905470288141913/6874601202</string>
+    <string name="banner_ad_3">ca-app-pub-7905470288141913/4954821352</string>
+    <string name="banner_ad_4">ca-app-pub-7905470288141913/9309192852</string>
+    <string name="banner_ad_5">ca-app-pub-7905470288141913/8397589957</string>
+    <string name="banner_ad_6">ca-app-pub-7905470288141913/7804539494</string>
+    <string name="banner_ad_7">ca-app-pub-7905470288141913/4458344940</string>
+    <string name="interstitial_ad_1">ca-app-pub-7905470288141913/5990918462</string>
+    <string name="interstitial_ad_2">ca-app-pub-7905470288141913/6701364900</string>
+    <string name="interstitial_ad_3">ca-app-pub-7905470288141913/6892936599</string>
+    <string name="interstitial_ad_4">ca-app-pub-7905470288141913/5178376158</string>
 
     <!--  Vincent's Ads  -->
-    <string name="ad_app_id">ca-app-pub-9212936261103508~7714762358</string>
-    <string name="banner_ad_1">ca-app-pub-9212936261103508/1147136967</string>
-    <string name="banner_ad_2">ca-app-pub-9212936261103508/4894810281</string>
-    <string name="banner_ad_3">ca-app-pub-9212936261103508/8347163651</string>
-    <string name="banner_ad_4">ca-app-pub-9212936261103508/7189801130</string>
-    <string name="banner_ad_5">ca-app-pub-9212936261103508/5876719463</string>
-    <string name="banner_ad_6">ca-app-pub-9212936261103508/6998229442</string>
-    <string name="banner_ad_7">ca-app-pub-9212936261103508/1745902760</string>
-    <string name="interstitial_ad_1">ca-app-pub-9212936261103508/3466178546</string>
-    <string name="interstitial_ad_2">ca-app-pub-9212936261103508/7908179953</string>
-    <string name="interstitial_ad_3">ca-app-pub-9212936261103508/6858628644</string>
-    <string name="interstitial_ad_4">ca-app-pub-9212936261103508/5146285244</string>
+    <!--    <string name="ad_app_id">ca-app-pub-9212936261103508~7714762358</string>-->
+    <!--    <string name="banner_ad_1">ca-app-pub-9212936261103508/1147136967</string>-->
+    <!--    <string name="banner_ad_2">ca-app-pub-9212936261103508/4894810281</string>-->
+    <!--    <string name="banner_ad_3">ca-app-pub-9212936261103508/8347163651</string>-->
+    <!--    <string name="banner_ad_4">ca-app-pub-9212936261103508/7189801130</string>-->
+    <!--    <string name="banner_ad_5">ca-app-pub-9212936261103508/5876719463</string>-->
+    <!--    <string name="banner_ad_6">ca-app-pub-9212936261103508/6998229442</string>-->
+    <!--    <string name="banner_ad_7">ca-app-pub-9212936261103508/1745902760</string>-->
+    <!--    <string name="interstitial_ad_1">ca-app-pub-9212936261103508/3466178546</string>-->
+    <!--    <string name="interstitial_ad_2">ca-app-pub-9212936261103508/7908179953</string>-->
+    <!--    <string name="interstitial_ad_3">ca-app-pub-9212936261103508/6858628644</string>-->
+    <!--    <string name="interstitial_ad_4">ca-app-pub-9212936261103508/5146285244</string>-->
 </resources>
