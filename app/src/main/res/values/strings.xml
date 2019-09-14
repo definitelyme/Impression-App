@@ -53,13 +53,4 @@
     <string name="interstitial_ad_2">ca-app-pub-9212936261103508/7908179953</string>
     <string name="interstitial_ad_3">ca-app-pub-9212936261103508/6858628644</string>
     <string name="interstitial_ad_4">ca-app-pub-9212936261103508/5146285244</string>
-
-
-    <!--  Constants  -->
-    <string name="banner_ad_8">ca-app-pub-5022917256332506/9591527797</string>
-    <string name="banner_ad_9">ca-app-pub-5022917256332506/9018465112</string>
-    <string name="banner_ad_10">ca-app-pub-5022917256332506/3766138435</string>
-    <string name="interstitial_ad_8">ca-app-pub-5022917256332506/6739253307</string>
-    <string name="interstitial_ad_9">ca-app-pub-5022917256332506/1818099119</string>
-
 </resources>

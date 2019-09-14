@@ -78,12 +78,17 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
 
             @Override
             public void onAdFailedToLoad(int i) {
-                sendSnackbar(container, "Interstitial failed to load with error code: " + i);
                 if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupInterstitialAd();
+                else if (i == AdRequest.ERROR_CODE_INTERNAL_ERROR)
+                    sendSnackbar(container, "Error occurred! Internal Error.");
+                else if (i == AdRequest.ERROR_CODE_INVALID_REQUEST)
+                    sendSnackbar(container, "Error occurred! Invalid Request.");
+                else if (i == AdRequest.ERROR_CODE_NO_FILL)
+                    sendSnackbar(container, "Error! Code no fill");
+                else sendSnackbar(container, "Interstitial failed to load with error code: " + i);
             }
         });
 
-//        setupConstants();
     }
 
     private void showInterstitial(InterstitialAd interstitialAd) {
@@ -93,40 +98,6 @@ public class BannerActivity3 extends AppCompatActivity implements ActInterface {
         } else {
             sendToast(BannerActivity3.this, "The interstitial wasn't loaded yet.");
         }
-    }
-
-    private void setupConstants(){
-        InterstitialAd constant1 = new InterstitialAd(this);
-        constant1.setAdUnitId(getString(R.string.interstitial_ad_8));
-        initInterstitial(constant1); // Load Interstitial
-
-        InterstitialAd constant2 = new InterstitialAd(this);
-        constant2.setAdUnitId(getString(R.string.interstitial_ad_9));
-        initInterstitial(constant2); // Load Interstitial
-
-        constant1.setAdListener(new AdListener(){
-            @Override
-            public void onAdLoaded() {
-                showInterstitial(constant1);
-            }
-
-            @Override
-            public void onAdFailedToLoad(int i) {
-                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
-            }
-        });
-
-        constant2.setAdListener(new AdListener(){
-            @Override
-            public void onAdLoaded() {
-                showInterstitial(constant2);
-            }
-
-            @Override
-            public void onAdFailedToLoad(int i) {
-                if (i == AdRequest.ERROR_CODE_NETWORK_ERROR) setupConstants();
-            }
-        });
     }
 
     private void initInterstitial(InterstitialAd interstitialAd) {
